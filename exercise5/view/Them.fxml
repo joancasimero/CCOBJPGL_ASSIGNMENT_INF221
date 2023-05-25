@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="549.0" prefWidth="880.0" style="-fx-background-color: beige;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ThemController">
+   <children>
+      <Button fx:id="mikeybutton" layoutX="107.0" layoutY="282.0" mnemonicParsing="false" onAction="#showInfo" prefHeight="34.0" prefWidth="126.0" style="-fx-background-color: red;" text="mikey">
+         <font>
+            <Font name="Bodoni MT Bold" size="21.0" />
+         </font>
+      </Button>
+      <Button fx:id="lisabutton" layoutX="377.0" layoutY="281.0" mnemonicParsing="false" onAction="#showInfo" prefHeight="42.0" prefWidth="126.0" style="-fx-background-color: yellow;" text="lisa">
+         <font>
+            <Font name="Bodoni MT Bold" size="22.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="87.0" layoutY="125.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/mikey.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="365.0" layoutY="120.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/lisa.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="641.0" layoutY="120.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/olivia.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="215.0" layoutY="334.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/sabrina.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="534.0" layoutY="334.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/viper.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="oliviabutton" layoutX="653.0" layoutY="281.0" mnemonicParsing="false" onAction="#showInfo" prefHeight="42.0" prefWidth="126.0" style="-fx-background-color: violet;" text="olivia">
+         <font>
+            <Font name="Bodoni MT Bold" size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="sabrinabutton" layoutX="227.0" layoutY="492.0" mnemonicParsing="false" onAction="#showInfo" prefHeight="42.0" prefWidth="126.0" style="-fx-background-color: pink;" text="sabrina">
+         <font>
+            <Font name="Bodoni MT Bold" size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="viperbutton" layoutX="546.0" layoutY="492.0" mnemonicParsing="false" onAction="#showInfo" prefHeight="42.0" prefWidth="126.0" style="-fx-background-color: green;" text="viper">
+         <font>
+            <Font name="Bodoni MT Bold" size="22.0" />
+         </font>
+      </Button>
+      <Label layoutX="272.0" layoutY="24.0" text="&quot;THEM&quot;" underline="true">
+         <font>
+            <Font name="Bodoni MT Bold Italic" size="78.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
