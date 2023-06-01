@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="718.0" prefWidth="1235.0" style="-fx-background-color: #2254ab;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.HomeController">
+   <children>
+      <Pane layoutX="21.0" layoutY="26.0" prefHeight="352.0" prefWidth="336.0" style="-fx-background-color: #fff350;">
+         <children>
+            <ImageView fx:id="img1" fitHeight="167.0" fitWidth="298.0" layoutX="112.0" layoutY="44.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/lamp1.jpg" />
+               </image>
+            </ImageView>
+            <Label fx:id="name1" layoutX="100.0" layoutY="236.0" text="Bedroom  Lamp">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="price1" layoutX="151.0" layoutY="273.0" text="9.99">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Button fx:id="button1" layoutX="128.0" layoutY="307.0" mnemonicParsing="false" onAction="#buy" style="-fx-background-color: green;" text="Add to Cart" textFill="#fffdfd">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+      <Pane layoutX="371.0" layoutY="26.0" prefHeight="352.0" prefWidth="336.0" style="-fx-background-color: #fff350;">
+         <children>
+            <ImageView fx:id="img2" fitHeight="167.0" fitWidth="298.0" layoutX="112.0" layoutY="44.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/lamp2.jpg" />
+               </image>
+            </ImageView>
+            <Label fx:id="name2" layoutX="113.0" layoutY="235.0" text="Ceiling Lamp">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="price2" layoutX="151.0" layoutY="273.0" text="21.99">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Button fx:id="button2" layoutX="129.0" layoutY="307.0" mnemonicParsing="false" onAction="#buy" style="-fx-background-color: green;" text="Add to Cart" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+      <Pane layoutX="720.0" layoutY="26.0" prefHeight="352.0" prefWidth="336.0" style="-fx-background-color: #fff350;">
+         <children>
+            <ImageView fx:id="img3" fitHeight="167.0" fitWidth="298.0" layoutX="112.0" layoutY="44.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/lamp3.jpg" />
+               </image>
+            </ImageView>
+            <Label fx:id="name3" layoutX="123.0" layoutY="236.0" text="Wall Lamp">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="price3" layoutX="151.0" layoutY="269.0" text="15.99">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Button fx:id="button3" layoutX="130.0" layoutY="302.0" mnemonicParsing="false" onAction="#buy" style="-fx-background-color: green;" text="Add to Cart" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+      <Button fx:id="cartbutton" layoutX="1049.0" layoutY="537.0" mnemonicParsing="false" onAction="#gotocart" style="-fx-background-color: red;" text="My Cart" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Pane layoutX="215.0" layoutY="405.0" prefHeight="280.0" prefWidth="298.0" style="-fx-background-color: #fff350;">
+         <children>
+            <ImageView fx:id="img4" fitHeight="167.0" fitWidth="336.0" layoutX="86.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/lamp4.jpg" />
+               </image>
+            </ImageView>
+            <Label fx:id="name4" layoutX="61.0" layoutY="180.0" text="Pink Bedroom  Lamp">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="price4" layoutX="126.0" layoutY="207.0" text="10.99">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Button fx:id="button4" layoutX="101.0" layoutY="234.0" mnemonicParsing="false" onAction="#buy" style="-fx-background-color: green;" text="Add to Cart" textFill="#fffdfd">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="1007.0" layoutY="605.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/ikea.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

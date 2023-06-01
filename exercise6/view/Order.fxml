@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="564.0" prefWidth="600.0" style="-fx-background-color: #2254ab;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.OrderController">
+   <children>
+      <Label layoutX="47.0" layoutY="227.0" prefHeight="21.0" prefWidth="127.0" text="Order Name" textFill="WHITE">
+         <font>
+            <Font name="Calibri Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <Pane layoutX="47.0" layoutY="256.0" prefHeight="52.0" prefWidth="511.0" style="-fx-background-color: #fff350;">
+         <children>
+            <Label fx:id="name1" layoutX="14.0" layoutY="18.0" prefHeight="15.0" prefWidth="110.0" text="Bedroom Lamp" textFill="#2254ab">
+               <font>
+                  <Font name="Calibri Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="price1" layoutX="401.0" layoutY="18.0" prefHeight="15.0" prefWidth="110.0" text="Total: " textFill="#2254ab">
+               <font>
+                  <Font name="Calibri Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="qty1" layoutX="218.0" layoutY="18.0" prefHeight="15.0" prefWidth="110.0" text="QTY:" textFill="#2254ab">
+               <font>
+                  <Font name="Calibri Bold" size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane layoutX="47.0" layoutY="506.0" prefHeight="43.0" prefWidth="511.0" style="-fx-background-color: #fff350;">
+         <children>
+            <Label layoutX="14.0" layoutY="11.0" text="Total Order:" textFill="#2254ab">
+               <font>
+                  <Font name="Calibri Bold Italic" size="19.0" />
+               </font>
+            </Label>
+            <Label fx:id="total" layoutX="407.0" layoutY="14.0" prefHeight="15.0" prefWidth="110.0" text="label" textFill="#2254ab">
+               <font>
+                  <Font name="Calibri Bold" size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane layoutX="47.0" layoutY="320.0" prefHeight="52.0" prefWidth="511.0" style="-fx-background-color: #fff350;">
+         <children>
+            <Label fx:id="name2" layoutX="14.0" layoutY="18.0" prefHeight="15.0" prefWidth="110.0" text="Ceiling Lamp" textFill="#2254ab">
+               <font>
+                  <Font name="Calibri Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="price2" layoutX="398.0" layoutY="18.0" prefHeight="15.0" prefWidth="110.0" text="Total: " textFill="#2254ab">
+               <font>
+                  <Font name="Calibri Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="qty2" layoutX="220.0" layoutY="18.0" prefHeight="15.0" prefWidth="110.0" text="QTY:" textFill="#2254ab">
+               <font>
+                  <Font name="Calibri Bold" size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane layoutX="47.0" layoutY="382.0" prefHeight="52.0" prefWidth="511.0" style="-fx-background-color: #fff350;">
+         <children>
+            <Label fx:id="name3" layoutX="14.0" layoutY="18.0" prefHeight="15.0" prefWidth="110.0" text="Wall Lamp" textFill="#2254ab">
+               <font>
+                  <Font name="Calibri Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="price3" layoutX="401.0" layoutY="18.0" prefHeight="15.0" prefWidth="110.0" text="Total: " textFill="#2254ab">
+               <font>
+                  <Font name="Calibri Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="qty3" layoutX="219.0" layoutY="18.0" prefHeight="15.0" prefWidth="110.0" text="QTY:" textFill="#2254ab">
+               <font>
+                  <Font name="Calibri Bold" size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Label layoutX="444.0" layoutY="227.0" prefHeight="21.0" prefWidth="127.0" text="Price" textFill="WHITE">
+         <font>
+            <Font name="Calibri Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="91.0" fitWidth="200.0" layoutX="203.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/ikea.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="248.0" layoutY="94.0" prefHeight="30.0" prefWidth="110.0" text="Order Receipt" textFill="#fff350">
+         <font>
+            <Font name="Calibri Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="221.0" layoutY="124.0" text="Thank you!" textFill="WHITE">
+         <font>
+            <Font name="Calibri Bold" size="35.0" />
+         </font>
+      </Label>
+      <Label layoutX="268.0" layoutY="227.0" prefHeight="21.0" prefWidth="127.0" text="Quantity" textFill="WHITE">
+         <font>
+            <Font name="Calibri Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="113.0" layoutY="166.0" text="Please moniitor your delivery with the given guide that was sent in your email." textFill="WHITE">
+         <font>
+            <Font name="Calibri Italic" size="12.0" />
+         </font></Label>
+      <Pane layoutX="47.0" layoutY="444.0" prefHeight="52.0" prefWidth="511.0" style="-fx-background-color: #fff350;">
+         <children>
+            <Label fx:id="name4" layoutX="14.0" layoutY="18.0" prefHeight="16.0" prefWidth="141.0" text="Pink Bedroom Lamp" textFill="#2254ab">
+               <font>
+                  <Font name="Calibri Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="price4" layoutX="401.0" layoutY="18.0" prefHeight="15.0" prefWidth="110.0" text="Total: " textFill="#2254ab">
+               <font>
+                  <Font name="Calibri Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="qty4" layoutX="219.0" layoutY="18.0" prefHeight="15.0" prefWidth="110.0" text="QTY:" textFill="#2254ab">
+               <font>
+                  <Font name="Calibri Bold" size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
